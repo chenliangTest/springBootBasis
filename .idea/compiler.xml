@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
+        <module name="Spring-boot" />
+        <module name="springboot-trade-demo" />
+        <module name="springboot-user-demo" />
+        <module name="springcould-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="1.8" />
+      <module name="Spring-boot" target="1.8" />
+      <module name="springboot-trade-demo" target="1.8" />
+      <module name="springboot-user-demo" target="1.8" />
+      <module name="springcould-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

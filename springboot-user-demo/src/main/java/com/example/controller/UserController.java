@@ -25,4 +25,9 @@ public class UserController {
     public Result selectUserTradeInfo(@RequestBody UserInfoVO userInfoVO){
         return userInfoFacade.selectUserTradeInfo(userInfoVO);
     }
+    
+    @PostMapping(value = "/createUserInfo")
+    public Result createUserInfo(@RequestBody UserInfoVO userInfoVO){
+        return userInfoFacade.createUserInfo(userInfoVO);
+    }
 }

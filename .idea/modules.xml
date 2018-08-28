@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springBoot/Spring-boot.iml" filepath="$PROJECT_DIR$/springBoot/Spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-trade-demo/springboot-trade-demo.iml" filepath="$PROJECT_DIR$/springboot-trade-demo/springboot-trade-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-user-demo/springboot-user-demo.iml" filepath="$PROJECT_DIR$/springboot-user-demo/springboot-user-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcould-demo/springcould-demo.iml" filepath="$PROJECT_DIR$/springcould-demo/springcould-demo.iml" />
+    </modules>
+  </component>
+</project>

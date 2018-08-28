@@ -10,5 +10,11 @@ import lombok.ToString;
 public class UserInfoVO {
 
     private  String userId;
+    
+    private String name;
+    
+    private Integer age;
+    
+    private Integer type;
 
 }

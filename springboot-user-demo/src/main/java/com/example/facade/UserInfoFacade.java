@@ -8,4 +8,6 @@ public interface UserInfoFacade {
     Result selectUserInfoList(UserInfoVO userInfoVO);
 
     Result selectUserTradeInfo(UserInfoVO userInfoVO);
+    
+    Result createUserInfo(UserInfoVO userInfoVO);
 }

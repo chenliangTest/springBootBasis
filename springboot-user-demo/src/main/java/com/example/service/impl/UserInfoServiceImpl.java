@@ -4,6 +4,7 @@ import com.example.entity.UserInfo;
 import com.example.entity.UserInfoExample;
 import com.example.feignClient.TradeFeign;
 import com.example.mapper.UserInfoMapper;
+import com.example.service.BaseUserService;
 import com.example.service.UserInfoService;
 import com.example.util.ResponseFactory;
 import com.example.vo.Result;
@@ -24,6 +25,7 @@ public class UserInfoServiceImpl implements UserInfoService {
 
     @Autowired
     TradeFeign tradeFeign;
+    
 
     @Override
     public Result selectUserInfoList(UserInfoVO userInfoVO) {
@@ -55,4 +57,5 @@ public class UserInfoServiceImpl implements UserInfoService {
         Result result = tradeFeign.selectUserTradeInfo(userTradeRecodeVO);
         return result;
     }
+
 }
