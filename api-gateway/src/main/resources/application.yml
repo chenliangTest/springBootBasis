@@ -9,12 +9,19 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8091/eureka/
+    fetch-registry: true
+
 zuul:
   routes:
     user:
       path: /user/**
-      serviceId: user
+      serviceId: user-service
     trade:
       path: /trade/**
       serviceId: trade
+  host:
+    socket-timeout-millis: 60000
+    connect-timeout-millis: 60000
+
+
 
