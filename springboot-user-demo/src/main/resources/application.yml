@@ -13,10 +13,17 @@ spring:
     password: 654321
     url: jdbc:mysql://127.0.0.1:3306/springboot?useUnicode=true&characterEncoding=utf-8
   application:
-    name: user
+    name: user-service
+
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: true
+
 mybatis:
   mapper-locations: classpath:mapping/*Mapper.xml
   type-aliases-package: com.example.entity.*
+
 
 
 
